@@ -1,0 +1,113 @@
+* {
+  font-family: "Poppins", sans-serif;
+  /* outline: 2px solid white; */
+}
+
+body {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  background: #3c6c6c;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+}
+
+#main {
+  margin: 0.5rem;
+  padding: 15px;
+  border-radius: 5px;
+  background: #00a8a8;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+.tribute__portrait {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #3c6c6c;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.tribute__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+ul li a {
+  color: white;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+.gallery__books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery__book {
+  max-height: 15rem;
+  margin: 00.5rem;
+}
