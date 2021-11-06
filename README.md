@@ -21,4 +21,4 @@
 > Live Server started updating my page again (I had to refresh it manually and it was annoying because I couldn't understand why it suddenly stopped working).
 
 ## Tribute page link
-
+[Trubute page](https://schoolofcode.github.io/w0d0_precourse-challenge-E-K8/)
